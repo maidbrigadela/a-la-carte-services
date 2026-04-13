@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +8,9 @@
   <style>
     body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 20px; background: #f8f9fa; color: #333; line-height: 1.5; }
     .container { max-width: 900px; margin: 0 auto; background: white; border: 1px solid #ddd; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-    .header { background: #005e82; color: white; padding: 25px 30px; text-align: center; }
-    .header img { max-width: 220px; margin-bottom: 10px; }
-    .tagline { color: #f49d1e; font-size: 15px; font-weight: bold; letter-spacing: 2px; margin: 0; }
+    .header-img { width: 100%; height: auto; display: block; }
+    .logo { max-width: 260px; height: auto; margin-bottom: 10px; }
+    .tagline { color: #f49d1e; font-size: 15px; font-weight: bold; letter-spacing: 3px; margin: 0; }
     .content { padding: 30px; }
     h1 { text-align:center; color:#005e82; margin-bottom:10px; }
     h2 { color: #005e82; border-bottom: 3px solid #f49d1e; padding-bottom: 8px; margin-top: 35px; font-size: 20px; }
@@ -18,18 +19,18 @@
     th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; }
     th { background: #f4f8fa; color: #005e82; font-weight: 600; }
     .price { font-weight: 600; color: #005e82; }
-    .note { font-size: 13px; color: #555; font-style: italic; margin: 25px 0; }
+    .note { font-size: 13px; color: #555; font-style: italic; margin: 25px 0; text-align: center; }
     .footer { background: #005e82; color: white; text-align: center; padding: 20px; font-size: 14px; }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <!-- Header Image -->
-  <img style="width: 100%; height: auto; display: block;" src="https://i.imgur.com/0vN9f5J.jpg" alt="Maid Brigade Professional Cleaning" />
+  <!-- Main Header Photo -->
+  <img class="header-img" src="https://i.ibb.co.com/0vN9f5J/maid-brigade-team.jpg" alt="Maid Brigade Professional Cleaning Team">
 
-  <div class="header">
-    <img src="https://i.imgur.com/0vN9f5J.jpg" alt="Maid Brigade Logo" style="max-width: 260px;">
+  <div style="padding: 30px 40px 10px 40px; text-align: center; background: #005e82; color: white;">
+    <img class="logo" src="https://i.ibb.co.com/0vN9f5J/maid-brigade-logo.png" alt="Maid Brigade Logo">
     <p class="tagline">LA & SOUTH BAY OF LA'S MOST-TRUSTED HOUSECLEANING SERVICE</p>
   </div>
 
@@ -52,9 +53,85 @@
       <tr><td>Silverware Drawer Clean Out</td><td class="price">$20</td></tr>
     </table>
 
-    <!-- (The rest of your categories continue the same way as in the previous version I sent you) -->
+    <h3 style="color: #005e82;">Bathroom</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr><th style="padding: 10px; text-align: left; background:#f4f8fa;">Task</th><th style="padding: 10px; text-align: left; background:#f4f8fa;">Price</th></tr>
+      <tr><td>Shower Head Descale & Deep Scrub</td><td class="price">$20</td></tr>
+      <tr><td>Bathroom Exhaust Fan / Vent Deep Clean</td><td class="price">$15</td></tr>
+    </table>
 
-    <!-- ... [I kept the full content the same as before for brevity, but you can keep the full tables from the last version I gave you] ... -->
+    <h3 style="color: #005e82;">Linens & Laundry</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr><th style="padding: 10px; text-align: left; background:#f4f8fa;">Task</th><th style="padding: 10px; text-align: left; background:#f4f8fa;">Price</th></tr>
+      <tr><td>Change Linens (per bed)</td><td class="price">$5</td></tr>
+      <tr><td>Laundry Folding (per load)</td><td class="price">$30</td></tr>
+      <tr><td>Clean Inside Washer / Dryer</td><td class="price">$30</td></tr>
+    </table>
+
+    <h3 style="color: #005e82;">Pet & Fabric Care</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr><th style="padding: 10px; text-align: left; background:#f4f8fa;">Task</th><th style="padding: 10px; text-align: left; background:#f4f8fa;">Price</th></tr>
+      <tr><td>Pet Hair Removal / Upholstery Vacuuming</td><td class="price">Chair $20 / Couch $40 / Sectional $50</td></tr>
+      <tr><td>Vacuum Mattress</td><td class="price">$25</td></tr>
+    </table>
+
+    <h3 style="color: #005e82;">Windows & Glass</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr><th style="padding: 10px; text-align: left; background:#f4f8fa;">Task</th><th style="padding: 10px; text-align: left; background:#f4f8fa;">Price</th></tr>
+      <tr><td>Interior Windows (each window)</td><td class="price">$10</td></tr>
+      <tr><td>Interior Windows & Tracks (each window)</td><td class="price">$20</td></tr>
+    </table>
+
+    <h3 style="color: #005e82;">Entry & Exterior</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr><th style="padding: 10px; text-align: left; background:#f4f8fa;">Task</th><th style="padding: 10px; text-align: left; background:#f4f8fa;">Price</th></tr>
+      <tr><td>Front Door / Sidelights Cleaning (inside & out)</td><td class="price">$20</td></tr>
+      <tr><td>Balcony Cleaning</td><td class="price">$20</td></tr>
+      <tr><td>Porch Cleaning</td><td class="price">$30</td></tr>
+      <tr><td>Large Deck / Patio Cleaning</td><td class="price">$50</td></tr>
+      <tr><td>Wipe Patio Furniture (table + 4 chairs)</td><td class="price">$25</td></tr>
+      <tr><td>Garage (remove cobwebs & sweep)</td><td class="price">$20</td></tr>
+      <tr><td>Wash Trash Cans (inside & out, per can)</td><td class="price">$5</td></tr>
+    </table>
+
+    <h3 style="color: #005e82;">Sanitizing & Disinfection</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr><th style="padding: 10px; text-align: left; background:#f4f8fa;">Task</th><th style="padding: 10px; text-align: left; background:#f4f8fa;">Price</th></tr>
+      <tr><td>Kids Playroom Disinfection</td><td class="price">$40</td></tr>
+      <tr><td>Home Gym Equipment Sanitizing & Disinfection</td><td class="price">$40</td></tr>
+      <tr><td>PUREmist Home Disinfection Spray</td><td class="price">Under 1000 sq ft $10 / Under 2000 sq ft $20 / Over 2000 sq ft $30</td></tr>
+    </table>
+
+    <!-- Hourly / Deep Clean Tasks -->
+    <h2 style="color: #005e82; border-bottom: 3px solid #f49d1e; padding-bottom: 8px; margin-top: 40px;">Hourly / Deep Clean Tasks (Billed by Time)</h2>
+    <table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
+      <tr style="background: #fff4e6;"><th style="padding: 12px; text-align: left;">Task</th><th style="padding: 12px; text-align: left;">Estimated Cost</th></tr>
+      <tr><td>Hand Wipe Baseboards</td><td>$65 – $195</td></tr>
+      <tr><td>Hand Wipe Blinds</td><td>$65 – $195</td></tr>
+      <tr><td>Hand Wipe Doors (front & back, per door)</td><td>$10</td></tr>
+      <tr><td>High Dusting (cabinets, crown molding, fixtures)</td><td>$40 – $60</td></tr>
+      <tr><td>Shelves (moving items to dust)</td><td>$65 – $195</td></tr>
+      <tr><td>Closet / Pantry Organizing & Wipe-Down</td><td>$50 – $100</td></tr>
+      <tr><td>Inside Kitchen or Bathroom Cabinets & Drawers</td><td>$65 – $195</td></tr>
+      <tr><td>Deep Clean Outside of Kitchen/Bathroom Cabinets</td><td>$65 – $130</td></tr>
+      <tr><td>Shower Tile & Grout Cleaning (walls)</td><td>$65 – $130</td></tr>
+      <tr><td>Wash Dishes</td><td>$35 – $65</td></tr>
+      <tr><td>Spot Clean Walls</td><td>$50 – $100</td></tr>
+      <tr><td>Antimicrobial Barrier Application</td><td>$50 – $150</td></tr>
+      <tr><td>Kids Toys & Playroom Sanitizing & Disinfection</td><td>$65 – $130</td></tr>
+    </table>
+
+    <!-- Bundles -->
+    <h2 style="color: #005e82; border-bottom: 3px solid #f49d1e; padding-bottom: 8px; margin-top: 40px;">Suggested Popular Bundles</h2>
+    <table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
+      <tr style="background: #f9f4ff;"><th style="padding: 12px; text-align: left;">Bundle Name</th><th style="padding: 12px; text-align: left;">Includes</th><th style="padding: 12px; text-align: left;">Price</th><th style="padding: 12px; text-align: left;">Savings</th></tr>
+      <tr><td>Kitchen Refresh Bundle</td><td>Fridge + Oven + Coffee Maker + Small Appliance</td><td>$85</td><td>$25</td></tr>
+      <tr><td>Bathroom Deep Clean Bundle</td><td>Shower Head + Shower Tile & Grout + Exhaust Fan</td><td>$75</td><td>$35</td></tr>
+      <tr><td>Pet-Friendly Bundle</td><td>Pet Hair Removal (Couch) + Vacuum Mattress + High Dusting</td><td>$85</td><td>$30</td></tr>
+      <tr><td>Window Refresh Bundle</td><td>Interior Windows & Tracks (up to 8 windows)</td><td>$125</td><td>$35</td></tr>
+      <tr><td>Bed Refresh Bundle</td><td>Change Linens + Vacuum Mattress (per bed)</td><td>$25</td><td>$10</td></tr>
+      <tr><td>Family-Friendly Sanitizing Bundle</td><td>Kids Playroom Disinfection + Home Gym Equipment Sanitizing + PUREmist Spray</td><td>$75</td><td>$25</td></tr>
+    </table>
 
     <p style="font-size: 13px; color: #555; font-style: italic; text-align: center; margin: 30px 0;">
       * Hourly / Deep Clean tasks are billed based on actual time spent (most recommend a 1-hour minimum).<br>
